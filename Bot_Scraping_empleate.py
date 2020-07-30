@@ -3,7 +3,7 @@ from openpyxl import Workbook
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
 
-PATH = 'C:\Program Files (x86)\chromedriver.exe'
+PATH = './chromedriver.exe'
 
 driver = webdriver.Chrome(PATH)
 
